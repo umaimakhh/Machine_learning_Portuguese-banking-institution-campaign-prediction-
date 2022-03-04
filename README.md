@@ -1,9 +1,9 @@
 # Machine learning Portuguese banking institution campaign prediction
-
+<hr style="border:2px solid blue"> </hr>
 ### Motivation: What problem are you tackling, and what's the setting you're considering? What data are you working on? Did anything change from the proposal regarding data, objectives, and methods that you will apply?
 The overall problem we are tackling is that many banks want to know what type of customers would want to avail a campaign offer so that it will make them understand what type of users they should invest time into. We have set a baseline to first analyze the data through explanatory analysis, by explaining the data we set to analyze the problem statement by performing different classifiers, experimenting different ways to improve performance of those classifiers which can help in the prediction the campaign offers. The initial dataset is the banking dataset with 41188 rows and 21 features. Most features were categorial hence we tried to transform the data and use dummy variables to get in depth of each categorical variable within. The categorical variables were as following: 'job','marital','education','default','housing','loan','contact','month','day_of_week','poutcome'
 
-#### Research questions: Which of the research questions have you tried to answer that you came up with during your proposal?
+### Research questions: Which of the research questions have you tried to answer that you came up with during your proposal?
 Our main research question is:
 
 To predict whether a customer avails term deposit or not.
